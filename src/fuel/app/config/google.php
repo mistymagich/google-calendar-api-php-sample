@@ -5,7 +5,7 @@ return array(
         'service_account' => array(
             'client_id' => '<ServiceAccount ClientID>',
             'mail_addr' => '<ServiceAccount MailAddr>',
-            'key_file' => 'P12 Key file path'
+            'key_file' => file_get_contents(APPPATH . 'google-client.p12')
         )
     )
 );
