@@ -32,7 +32,3 @@ ADD xdebug.ini /usr/local/etc/php/conf.d/xdebug.ini
 # datetime
 ADD date.ini /usr/local/etc/php/conf.d/date.ini
 
-ADD entrypoint.sh /entrypoint.sh
-
-ENTRYPOINT ["/bin/bash"]
-CMD ["/entrypoint.sh"]
